@@ -1,2 +1,16 @@
-SaaS Landing Page (React + Vite)
-Built a responsive SaaS marketing site using React (Vite), with reusable components for header, hero, features, pricing, and footer. Implemented data-driven UI using props and .map() for feature and pricing lists, and styled the layout with mobile-first CSS and basic grid/flexbox. Deployed via Netlify and managed with Git/GitHub.
+# FlowSuite – SaaS Landing Page
+
+A responsive landing page for a fictional SaaS product, built with React and Vite.
+
+## Tech Stack
+- React (Vite)
+- CSS (flexbox, grid, responsive media queries)
+- Netlify (deployment)
+- Git & GitHub
+
+## Features
+- Hero section with primary and secondary CTAs
+- Features list rendered from data
+- Pricing section with multiple plans
+- Reusable components (Header, Hero, Features, Pricing, Footer)
+
