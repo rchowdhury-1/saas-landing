@@ -1,0 +1,130 @@
+.app {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  padding: 1.5rem 2rem;
+  max-width: 1080px;
+  margin: 0 auto;
+}
+
+/* NAVBAR */
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.logo {
+  font-weight: 700;
+  font-size: 1.25rem;
+}
+
+.nav-links {
+  display: flex;
+  gap: 1rem;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #333;
+  font-size: 0.95rem;
+}
+
+.nav-cta,
+.primary-btn,
+.secondary-btn {
+  border-radius: 999px;
+  padding: 0.5rem 1rem;
+  border: none;
+  cursor: pointer;
+}
+
+.nav-cta,
+.primary-btn {
+  background: #2563eb;
+  color: white;
+}
+
+.secondary-btn {
+  background: transparent;
+  border: 1px solid #2563eb;
+  color: #2563eb;
+}
+
+/* HERO SECTION */
+
+.hero {
+  margin: 3rem 0 2rem;
+}
+
+.hero h1 {
+  font-size: 2.2rem;
+  margin-bottom: 0.75rem;
+}
+
+.hero p {
+  max-width: 480px;
+  color: #555;
+  margin-bottom: 1rem;
+}
+
+.hero-actions {
+  display: flex;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+}
+
+/* GENERAL SECTIONS FOR LATER */
+
+.section {
+  margin: 2.5rem 0;
+}
+
+.section h2 {
+  margin-bottom: 0.5rem;
+}
+
+.footer {
+  margin-top: 3rem;
+  padding-top: 1rem;
+  border-top: 1px solid #eee;
+  font-size: 0.85rem;
+  color: #777;
+}
+.pricing-grid {
+  display: grid;
+  gap: 1.5rem;
+}
+
+.pricing-card {
+  border: 1px solid #eee;
+  border-radius: 12px;
+  padding: 1.5rem;
+}
+
+.pricing-card h3 {
+  margin-bottom: 0.25rem;
+}
+
+.price {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 0.75rem;
+}
+
+.pricing-card ul {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 1rem;
+}
+
+.pricing-card li {
+  margin-bottom: 0.4rem;
+}
+
+@media (min-width: 768px) {
+  .pricing-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
